@@ -309,6 +309,8 @@ a.takeatour:hover{
 
 .notebook{
   height: 760px;
+  background: url(../img/Macbookhere.png);
+  margin-top: 100px;
 }
 
 .notebook h3{
@@ -333,4 +335,57 @@ a.takeatour:hover{
 .notebook .takeatour{
 
   margin-left: 585px;
+}
+
+/*notebook*/
+
+
+.color-numbers{
+  height: 280px;
+  background-color: #1f252f;
+}
+
+.grren-number{
+  color: #86d375;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 85px;
+  margin-left: 110px;
+}
+
+.blue-number{
+  color: #7aa7f1;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 85px;
+  margin-left: 100px;
+}
+
+.red-number{
+  color: #f47272;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 85px;
+  margin-left: 100px;
+}
+
+.perple-number{
+  color: #9f7bfb;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 85px;
+  margin-left: 110px;
+}
+
+.orange-number{
+  color: #dea138;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 85px;
+  margin-left: 95px;
+}
+
+.color-numbers .col{
+  height: 280px;
+  border-right: 1px solid #363b44;
 }
