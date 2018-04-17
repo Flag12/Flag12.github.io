@@ -109,7 +109,7 @@ a.bpurchasenow{
   outline: none;
   border: 2px solid;
   border-radius: 3px;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 a.bpurchasenow:hover {
