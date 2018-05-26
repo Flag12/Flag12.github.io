@@ -109,7 +109,7 @@ a.bpurchasenow{
   outline: none;
   border: 2px solid;
   border-radius: 3px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 a.bpurchasenow:hover {
@@ -346,24 +346,54 @@ a.takeatour:hover{
   background-color: #1f252f;
 
 }
+.color-numbers .col{
+  width: 320px;
+}
 
 .grren-number{
   color: #86d375;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 85px;
+  padding-top: 85px;
+  margin: auto;
   text-align: center;
+
 }
 .greenline{
-  width: 307px;
-  border-top: 4px solid #86d375;
+  width: 320px;
+  height: 4px;
+  background-color: #86d375;
 
+}
+
+.blueline{
+  width: 320px;
+  height: 4px;
+  background-color: #81b0ff;
+}
+
+.redline{
+  width: 320px;
+  height: 4px;
+  background-color: #f47272;
+}
+
+.perpleline{
+  width: 320px;
+  height: 4px;
+  background-color: #9f7bfb;
+}
+.orangeline{
+  width: 320px;
+  height: 4px;
+  background-color: #dea138;
 }
 .blue-number{
   color: #7aa7f1;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 85px;
+  padding-top: 85px;
+  margin: auto;
   text-align: center;
 }
 .blue-number p{
@@ -373,7 +403,8 @@ a.takeatour:hover{
   color: #f47272;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 85px;
+  padding-top: 85px;
+  margin: auto;
   text-align: center;
 }
 
@@ -381,7 +412,8 @@ a.takeatour:hover{
   color: #9f7bfb;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 85px;
+  padding-top: 85px;
+  margin: auto;
   text-align: center;
 }
 
@@ -389,28 +421,60 @@ a.takeatour:hover{
   color: #dea138;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 85px;
+  padding-top: 85px;
+  margin: auto;
   text-align: center;
 }
 
 
 
-.color-numbers .col-2{
-  height: 280px;
-  border-right: 1px solid #363b44;
-}
+
 
 .small-line{
   height: 1px;
   width: 30px;
   background-image: linear-gradient(1deg, #00f0ff, #ebacfd);
-  margin-left: 130px;
+  margin: auto;
   margin-top: 25px;
 }
 
-.col-2 p{
+.col p{
   color: #c3c5c8;
   margin-top: 25px;
   text-align: center;
   margin-left: 0;
+}
+
+/*color-numbers*/
+
+.slider{
+  height: 800px;
+  background-color: #68727b;
+}
+
+.slider p{
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 266px;
+}
+
+.slider .small-line{
+  margin-top: 55px;
+  width: 100px;
+}
+
+.slider h5{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.slider h6{
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
 }
