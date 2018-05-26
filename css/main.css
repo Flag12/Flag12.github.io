@@ -200,7 +200,7 @@ a.takeatour:hover{
 	height: 0;
   margin: auto;
   margin-top: 225px;
-	border-left: 20px solid transparent;
+  border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-bottom: 20px solid white;
   border-radius: 5px;
@@ -249,7 +249,7 @@ a.takeatour:hover{
 .colori p{
   color: white;
   font-size: 14px;
-  padding-left: 1130px;
+  padding-left: 740px;
 }
 
 
@@ -446,13 +446,17 @@ a.takeatour:hover{
 }
 
 /*color-numbers*/
-
-.slider{
+.slidered{
   height: 800px;
+  width: auto;
   background-color: #68727b;
+
+}
+.slider{
+  height: 750px;
 }
 
-.slider p{
+.slick-slide p{
   font-size: 30px;
   font-weight: lighter;
   color: #ffffff;
@@ -460,12 +464,13 @@ a.takeatour:hover{
   padding-top: 266px;
 }
 
-.slider .small-line{
+.slick-slide .small-line{
   margin-top: 55px;
   width: 100px;
+
 }
 
-.slider h5{
+.slick-slide h5{
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
@@ -473,8 +478,10 @@ a.takeatour:hover{
   margin-top: 55px;
 }
 
-.slider h6{
+.slick-slide h6{
   color: #ffffff;
   text-align: center;
   padding: 0;
+  margin: 0;
+
 }
