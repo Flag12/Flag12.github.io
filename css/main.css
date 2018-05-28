@@ -485,3 +485,71 @@ a.takeatour:hover{
   margin: 0;
 
 }
+/*slider*/
+
+.whatwedo{
+  height: 800px;
+}
+
+.whatwedo .col-4{
+  height: 800px;
+  width: 775px;
+  background-color: #1f252f;
+
+}
+
+.whatwedo .col-4 h3{
+  font-size: 36px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 99px;
+}
+ .whatwedo .col-4 .small-line{
+   width: 100px;
+   margin-top: 30px;
+   margin-left: 100px;
+
+ }
+
+ .whatwedo .col-4 h6{
+   color: #b9b9b9;
+   font-size: 18px;
+   font-weight: lighter;
+   padding-left: 100px;
+   padding-top: 30px;
+ }
+
+.whatwedo .col-4 p{
+  color:  #cccccc;
+  font-size: 14px;
+  padding-top: 26px;
+  padding-left: 25px;
+}
+
+.whatwedo .col-4 .prop li{
+  color: #cccccc;
+  font-size: 14px;
+
+}
+
+.whatwedo .col-4 .prop{
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.whatwedo .col-4 .takeatour-botton{
+  padding-top: 35px;
+  padding-left: 100px;
+}
+
+.whatwedo .col-8 .col-md-3{
+  width: 382px;
+  height: 400px;
+
+}
+
+.whatwedo .col-8 .col-md-3 img{
+  padding-left: 130px;
+  padding-top: 80px;
+}
