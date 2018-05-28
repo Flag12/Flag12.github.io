@@ -546,6 +546,7 @@ a.takeatour:hover{
 .whatwedo .col-8 .col-md-3{
   width: 382px;
   height: 400px;
+  margin-left: margin-left: 50px;
 
 }
 .whatwedo .col-8 .col-md-3:hover{
@@ -555,7 +556,8 @@ a.takeatour:hover{
 
 
 .whatwedo .col-8 .col-md-3 img{
-  padding-left: 130px;
+  padding-left: 115px;
+  padding-right: 115px;
   padding-top: 80px;
 }
 
@@ -563,7 +565,7 @@ a.takeatour:hover{
   color: #333333;
   font-size: 18px;
   padding-top: 60px;
-  padding-left: 30px;
+
   text-align: center;
 
 }
@@ -571,7 +573,7 @@ a.takeatour:hover{
 .whatwedo .col-8 .col-md-3 p{
   text-align: center;
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 5px;
   padding-top: 21px;
 }
 
@@ -581,9 +583,68 @@ a.takeatour:hover{
   color: #4285f4;
   font-size: 16px;
   padding-top: 30px;
-  padding-left: 90px;
+  padding-left: 85px;
 }
 
 .whatwedo .col-8 .col-md-3 a:hover{
   color:  #6a9ef5;
+}
+
+/*whatwedo*/
+
+.thebestpartners{
+  height: 1277px;
+  background: url('../img/light-adjustment.png');
+}
+
+.thebestpartners h3{
+  color: #333333;
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.thebestpartners .small-line{
+  width: 100px;
+}
+
+.thebestpartners p{
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-top: 30px;
+  margin-left: 0;
+}
+
+.thebestpartners .row{
+  padding-top: 90px;
+  padding-left: 105px;
+
+}
+
+.thebestpartners .col-3{
+
+  margin-bottom: 70px;
+
+
+
+}
+.thebestpartners .col-3 img{
+  position: absolute;
+
+  margin-right: 40px;
+
+
+}
+
+.poloska-ver{
+  position: relative;
+  left: 100%;
+  top: 50%;
+  height: 81px;
+  width: 0;
+  border-right: 1px solid rgba(0, 0 , 0 , 0.5);
+
 }
