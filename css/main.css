@@ -548,8 +548,42 @@ a.takeatour:hover{
   height: 400px;
 
 }
+.whatwedo .col-8 .col-md-3:hover{
+  box-shadow: 4px 7px 23px 3px #a7a7a7;
+  transition: 0.2s;
+}
+
 
 .whatwedo .col-8 .col-md-3 img{
   padding-left: 130px;
   padding-top: 80px;
+}
+
+.whatwedo .col-8 .col-md-3 h6{
+  color: #333333;
+  font-size: 18px;
+  padding-top: 60px;
+  padding-left: 30px;
+  text-align: center;
+
+}
+
+.whatwedo .col-8 .col-md-3 p{
+  text-align: center;
+  font-size: 14px;
+  margin-left: 10px;
+  padding-top: 21px;
+}
+
+.whatwedo .col-8 .col-md-3 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4285f4;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.whatwedo .col-8 .col-md-3 a:hover{
+  color:  #6a9ef5;
 }
