@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+  background-image: url("../img/warstwa-2.png"), url("../img/warstwa-3.png"), url("../img/wype-nienie-wzorkiem-1.png");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: top center, top 10px center, center;
+  background-blend-mode: multiply;
+}
+
+
+h1 h2 h3 h4 h5 h6 p a{
+  font-family: 'Tajawal', sans-serif;
+}
+
+.grayline{
+  height: 1px;
+  width: 100%;
+  background-color: black;
+
+}
+
+.menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li p{
+  padding-top: 50px;
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+}
+
+.name h1{
+  font-size: 54px;
+
+  text-align: center;
+  margin-top: 56px;
+}
+
+.name .grayline{
+  height: 1px;
+  width: 33%;
+  background-color: black;
+  margin: auto;
+  margin-top: 17px;
+}
+
+.name h3{
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 14.88px;
+  margin-top: 10px;
+}
+
+.about p{
+  color: #010101;
+  font-family: Calibri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.propert{
+  margin-top: 65px;
+}
+.propert .row .col-4 img{
+  width: 100%;
+}
+.propert .grayline{
+  margin-top: 10px;
+  background-color: gray;
+}
+
+.propert .row .col-4 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.propert .row .col-4 p{
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.propert .row .col-4 h5{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 42px;
+}
+
+.scobki ul{
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.scobki ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.scobki ul li h1{
+  opacity: 0.23;
+  color: #030303;
+  font-size: 110px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.scobki ul li h3{
+  text-align: center;
+  color: #030303;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 7%;
+}
+
+.footer{
+  margin-top: 100px;
+}
+
+.footer .row .col-sm-8 h3{
+  color: #030303;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+}
+
+.footer .row .col-sm-8 p{
+  font-size: 14px;
+  color: black;
+  text-align: left;
+
+}
+
+.footer .row .col-sm-4 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #545555;
+}
+
+.footer .row .col-sm-4 ul{
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+
+}
+
+.footer .row .col-sm-4 ul li{
+  margin-top: 10px;
+}
+
+.footer .row .col-sm-4 ul li a{
+  text-decoration: none;
+  border: none;
+  color: #545555;
+}
+
+.footer .row .col-sm-4 ul li a:hover{
+  border: none;
+  color: #5455f5;
+}
+
+.footer .grayline{
+  background-color: gray;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+.footer .soc-seti{
+  margin-left: 160px;
+}
+.footer i{
+  color: #999999;
+  margin-right: 20px;
+  border: none;
+}
+
+.footer i:hover{
+  color: white;
+  transition: 0.2s;
+  border:none;
+}
